@@ -11,7 +11,7 @@ def extract_with_css(response, query):
 class BolSitemapSpider(SitemapSpider):
     name = 'bol_item_category'
     sitemap_urls = ['https://www.bol.com/sitemap/nl-nl/']
-    sitemap_follow = ['product-121'] 
+    sitemap_follow = ['product'] 
 
     def parse(self, response):
         loader = ItemLoader(item=Variables(), response=response)
