@@ -1,6 +1,6 @@
 **Multi label classification with logistic regression**
 
-This is a prototyle ML project consisting of scraped data from a big Dutch webshop. The labels are `categoryName` and `title` and `subTitle` are features.
+This is a prototype ML project consisting of scraped data from a big Dutch webshop. The labels are `categoryName` and `title` and `subTitle` are features.
 
 __Summary__
 - `Scrapy SitemapSpider` to scrape items iteratively.
